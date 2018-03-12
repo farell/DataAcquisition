@@ -3,18 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVAcquisition", "CSVAcquisition\CSVAcquisition.csproj", "{F6183EEF-E6B3-4F1D-8B0F-18DD731FBA89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAcquisition", "DataAcquisition\DataAcquisition.csproj", "{F6183EEF-E6B3-4F1D-8B0F-18DD731FBA89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F6183EEF-E6B3-4F1D-8B0F-18DD731FBA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F6183EEF-E6B3-4F1D-8B0F-18DD731FBA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6183EEF-E6B3-4F1D-8B0F-18DD731FBA89}.Debug|x86.ActiveCfg = Debug|x86
+		{F6183EEF-E6B3-4F1D-8B0F-18DD731FBA89}.Debug|x86.Build.0 = Debug|x86
 		{F6183EEF-E6B3-4F1D-8B0F-18DD731FBA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6183EEF-E6B3-4F1D-8B0F-18DD731FBA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6183EEF-E6B3-4F1D-8B0F-18DD731FBA89}.Release|x86.ActiveCfg = Release|x86
+		{F6183EEF-E6B3-4F1D-8B0F-18DD731FBA89}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
