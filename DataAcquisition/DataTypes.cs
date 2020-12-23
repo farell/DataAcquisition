@@ -4,20 +4,88 @@ using System.Text;
 
 namespace DataAcquisition
 {
-    public struct DataValue
+    public class DataValue
     {
-        public string SensorId;
-        public string TimeStamp;
-        public string ValueType;
-        public string Value;
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public string ValueType { get; set; }
+        public double Value { get; set; }
     }
 
-    class SensorInitVal
+    public class RS_WS_N01_2x_Data
     {
-        public string SENSOR_ID;
-        public string Parameter1;
-        public string Parameter2;
-        public string Parameter3;
-        public string Parameter4;
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public double Temperature { get; set; }
+        public double Humidity { get; set; }
+    }
+
+    public class AS109_Data
+    {
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public double Temperature { get; set; }
+        public double Humidity { get; set; }
+    }
+
+    public class Bgk_Micro_40A_Data
+    {
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public double Value1 { get; set; }
+        public double Value2 { get; set; }
+    }
+
+    public class JMWS1D_Data
+    {
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public double Temperature { get; set; }
+        public double Humidity { get; set; }
+    }
+
+    public class Temperature
+    {
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public double Temp { get; set; }
+    }
+
+    public class ACA826T_Data
+    {
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public double X { get; set; }
+        public double Y { get; set; }
+        public double Temperature { get; set; }
+    }
+
+    public class ACT4238_Data
+    {
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public double Temperature { get; set; }
+        public double Frequency { get; set; }
+    }
+
+    public class BGK3475DM_Data
+    {
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public double Innage { get; set; }
+    }
+
+    public class MDL62XXAT_Data
+    {
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public double Innage { get; set; }
+    }
+
+    public class SKD100_Data
+    {
+        public string SensorId { get; set; }
+        public string TimeStamp { get; set; }
+        public double Distance { get; set; }
     }
 }

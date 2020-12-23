@@ -44,5 +44,21 @@ namespace DataAcquisition
                 MessageBox.Show("请选择文件路径");
             }
         }
+
+        private void buttonTest_Click(object sender, EventArgs e)
+        {
+            RS485Micro_40A dev = new RS485Micro_40A("COM70", 9600, 10, textBoxDeviceId.Text, "1000000100112",13);
+            bool result = dev.Acquisit();
+            string msg = "";
+            if (result)
+            {
+                msg = dev.GetResultString("");
+            }
+            else
+            {
+                msg = dev.GetErrorMsg();
+            }
+            MessageBox.Show(msg);
+        }
     }
 }
